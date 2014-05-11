@@ -2,6 +2,7 @@ plot4 <- function(data){
     
     figure_path <- "plot4.png"
     
+    # png default is 480x480
     png(figure_path)
     
     # Plot multiple graphs

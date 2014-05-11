@@ -2,6 +2,7 @@ plot3 <- function(data){
     
     figure_path <- "plot3.png"
     
+    # png default is 480x480
     png(figure_path)
     
     # Plot multiple graphs for Sub metering v/s Date time on single plot

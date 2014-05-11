@@ -2,6 +2,7 @@ plot2 <- function(data){
     
     figure_path <- "plot2.png"
     
+    # png default is 480x480
     png(figure_path)
     
     # Plot line graph for Gloabal Active Power v/s Date time

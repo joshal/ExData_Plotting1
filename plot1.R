@@ -2,6 +2,7 @@ plot1 <- function(data){
     
     figure_path <- "plot1.png"
     
+    # png default is 480x480
     png(figure_path)
     
     # Plot histogram of Global Active Power
